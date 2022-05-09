@@ -1,0 +1,43 @@
+.homeContainer{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.homeText{
+    width: 1024px;
+}
+
+.homeTitle{
+    font-size: 20px;
+}
+
+.homeSubTitle{
+    color: gray;
+}
+
+.mailAnnunncent{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #003580;
+    margin-top: -30px;
+    padding: 15px;
+}
+
+.mailAnnunncent>button{
+    padding: 6px 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+.mailAnnunncent>button:hover{
+    background-color: rgba(255, 255, 255, 0.199);
+}

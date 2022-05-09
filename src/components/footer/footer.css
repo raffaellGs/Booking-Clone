@@ -1,0 +1,33 @@
+.footer{
+    width: 100%;
+    max-width: 1024px;
+    margin-bottom: 20px;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    gap: 20px;
+}
+
+.footerUl{
+    list-style: none;
+} 
+
+.Footerlist{
+    display: flex;
+    flex-direction: column;
+}
+
+.Footerlist>a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #0071c2;
+    font-weight: 100;
+    line-height: 1.7;
+}
+
+.Footerlist>a:hover{
+    color: rgb(224, 146, 0);
+}
